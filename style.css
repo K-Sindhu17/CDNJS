@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+main{
+    width: 1519px;
+    height: auto;
+    /* border: 2px solid yellow; */  
+    color: #ebebeb;
+}
+
+.outside{
+    width: 1519px;
+    height: 735px;
+    /* border: 1px solid blue; */
+}
+
+.outside > svg{
+    position: absolute;
+    z-index: -1;
+    background-color: #454647;
+}
+
+nav{
+    width: 1519px;
+    height: 76px;
+    /* border: 2px solid red; */
+    background-color: #343535;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    z-index: +1;
+}
+
+.left{
+    width: 270px;
+    height: 44px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.in_left1{
+    width: 131px;
+    height: 36px;
+    /* border: 2px solid red; */
+    cursor: pointer;
+    
+}
+.in_left1 > img{
+    width: 131px;
+    height: 36px;
+    
+}
+
+.in_left2{
+    width: 23px;
+    height: 36px;
+    /* border: 2px solid red; */
+    fill: #ebebeb;
+
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+
+.in_left3{
+    width: 23px;
+    height: 36px;
+    /* border: 2px solid red; */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #ebebeb;
+}
+
+.right{
+    width: 461.89px;
+    height: 44px;
+    /* border: 2px solid yellow; */
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about{
+    width: 56.36px;
+    height: 36px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.libraries{
+    width: 78.26px;
+    height: 36px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.api{
+    width: 50.8px;
+    height: 36px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.github{
+    width: 63.9px;
+    height: 36px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status{
+    width: 84.56px;
+    height: 36px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle{
+    width: 7px;
+    height: 7px;
+    border: 2px solid rgb(9, 214, 9);
+    background-color: rgb(9, 214, 9);
+    border-radius: 50%;
+}
+
+.content{
+    width: 1519px;
+    height: 659px;
+    /* border: 1px solid violet; */
+    margin-top: 60px;
+    margin-left: 310px;
+
+}
+
+.text{
+    width: 932px;
+    height: 543px;
+    /* border: 5px solid red; */
+}
+
+.text h1{
+    font-weight: 350;
+    /* line-height: 80px; */
+    color: #ebebeb;
+    font-size:48px;
+    letter-spacing: .2px;
+}
+
+.text h2{
+    font-weight: 100;
+    color: #ebebeb;
+    /* font-size: 24px; */
+    letter-spacing: .2px;
+}
+
+.search{
+    width: 800px;
+    height: 46px;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: #ebebeb;
+
+}
+.search i{
+    color: black;
+}
+
+.search input{
+    width: 780px;
+    height: 46px;
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+
+.below_outside{
+    height: 39.5px;
+    /* border: 2px solid red; */
+    background-color: #d9643a;
+}
+
+.below_outside p svg{
+    width: 20px;
+    height: 20px;
+    color: #343535;
+}
+
+.below_outside p{
+    color: #343535;
+    padding-left: 15px;
+}
+
+footer{
+    height: 266px;
+    /* border: 2px solid red; */
+    background: #242525;
+    color: #ebebeb;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+footer span{
+    color: #ebebeb;
+}
+
+.foot_Content{
+    width: 1250px;
+    height: 266px;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foot_Content dl:first-child{
+    padding-bottom: 100px;
+}
+
+
+
+.foot_Content dl dt{
+    color: #797979;
+   
+}
